@@ -1,10 +1,10 @@
 ---
 draft: false
-name: "Janette Lynch"
-title: "Senior Director"
+name: "Jaswir Raghoe"
+title: "AI Full Stack Developer"
 avatar: {
-    src: "https://images.unsplash.com/photo-1580489944761-15a19d654956?&fit=crop&w=280",
-    alt: "Janette Lynch"
+    src: "https://lablab.ai/_next/image?url=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F15957528%3Fv%3D4&w=256&q=75",
+    alt: "Jaswir Raghoe"
 }
 publishDate: "2022-11-07 15:39"
 ---

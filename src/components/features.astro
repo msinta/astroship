@@ -4,51 +4,45 @@ import { Icon } from "astro-icon";
 
 const features = [
   {
-    title: "Bring Your Own Framework",
+    title: "Instant FAQ Responses",
     description:
-      "Build your site using React, Svelte, Vue, Preact, web components, or just plain ol' HTML + JavaScript.",
-    icon: "bx:bxs-briefcase",
+      "Utilize AI to provide quick, accurate answers to common recruitment questions, boosting efficiency and satisfaction.",
+    icon: "bx:bxs-chat",
   },
   {
-    title: "100% Static HTML, No JS",
+    title: "Customizable Knowledge Base",
     description:
-      "Astro renders your entire page to static HTML, removing all JavaScript from your final build by default.",
-    icon: "bx:bxs-window-alt",
+      "Easily adapt the bot’s responses to align with your company's specific requirements and cultural tone.",
+    icon: "bx:bxs-customize",
   },
   {
-    title: "On-Demand Components",
+    title: "Integration Friendly",
     description:
-      "Need some JS? Astro can automatically hydrate interactive components when they become visible on the page.  ",
-    icon: "bx:bxs-data",
+      "Effortlessly connects with major HR platforms and communication tools, enhancing workflow continuity.",
+    icon: "bx:bxs-plug",
   },
   {
-    title: "Broad Integration",
+    title: "Analytics Dashboard",
     description:
-      "Astro supports TypeScript, Scoped CSS, CSS Modules, Sass, Tailwind, Markdown, MDX, and any other npm packages.",
-    icon: "bx:bxs-bot",
+      "Access insights into frequent queries and interaction patterns to continuously improve the recruitment process.",
+    icon: "bx:bxs-dashboard",
   },
   {
-    title: "SEO Enabled",
+    title: "24/7 Availability",
     description:
-      "Automatic sitemaps, RSS feeds, pagination and collections take the pain out of SEO and syndication. It just works!",
-    icon: "bx:bxs-file-find",
-  },
-  {
-    title: "Community",
-    description:
-      "Astro is an open source project powered by hundreds of contributors making thousands of individual contributions.",
-    icon: "bx:bxs-user",
+      "Our bot works round the clock to ensure no candidate question goes unanswered, elevating the recruitment experience.",
+    icon: "bx:bxs-time",
   },
 ];
 ---
 
 <div class="mt-16 md:mt-0">
   <h2 class="text-4xl lg:text-5xl font-bold lg:tracking-tight">
-    Everything you need to start a website
+    Streamline Your Recruitment Process
   </h2>
   <p class="text-lg mt-4 text-slate-600">
-    Astro comes batteries included. It takes the best parts of state-of-the-art
-    tools and adds its own innovations.
+    Recruiter's Best Friend brings cutting-edge AI assistance to your hiring
+    workflow, allowing you to focus more on engaging with top talent.
   </p>
 </div>
 
@@ -60,7 +54,7 @@ const features = [
           <Icon class="text-white" name={item.icon} />
         </div>
         <div>
-          <h3 class="font-semibold text-lg">{item.title}</h3>{" "}
+          <h3 class="font-semibold text-lg">{item.title}</h3>
           <p class="text-slate-500 mt-2 leading-relaxed">{item.description}</p>
         </div>
       </div>
