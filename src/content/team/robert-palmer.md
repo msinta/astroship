@@ -1,10 +1,10 @@
 ---
 draft: false
-name: "Jay Wolf"
+name: "Juan Pablo (Kalli) Cadavid Aguirre"
 title: "ML Engineer"
 avatar: {
-    src: "https://lablab.ai/_next/image?url=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F90354487%3Fv%3D4&w=256&q=75",
-    alt: "Jay Wolf"
+    src: "https://media.licdn.com/dms/image/C5603AQFzYgavCuKTRQ/profile-displayphoto-shrink_800_800/0/1516886534033?e=1718841600&v=beta&t=xSmGJdZpJFOdxr-pOSrI2XsyZ9FM3FNOGRAKO1XeURY",
+    alt: "Juan Pablo (Kalli) Cadavid Aguirre"
 }
 publishDate: "2022-11-09 15:39"
 ---
